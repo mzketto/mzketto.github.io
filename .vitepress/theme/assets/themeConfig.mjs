@@ -16,7 +16,7 @@ export const themeConfig = {
     author: {
       name: "ketto",
       cover: "/images/logo/logo.webp",
-      email: "admin@mails.htu.edu.kg",
+      email: "yyds1661@gmail.com",
       link: "https://ubuy.dpdns.org",
     },
   },
@@ -40,7 +40,7 @@ export const themeConfig = {
           rel: "alternate",
           type: "application/rss+xml",
           title: "RSS",
-          href: "https://blog.imsyy.top/rss.xml",
+          href: "https://ubuy.dpdns.org/rss.xml",
         },
       ],
       // 预载 CDN
