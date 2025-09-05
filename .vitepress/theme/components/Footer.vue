@@ -12,12 +12,12 @@
         </a>
        
        <a
-       class="upyun link"
-       href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"
+       class="ketto's mail link"
+       href="https://ketto.cn"
         target="_blank"
       >
           <i class="iconfont icon-upyun" />
-        又拍云
+        ketto的mail
        </a>
       </div>
       <div class="meta">
