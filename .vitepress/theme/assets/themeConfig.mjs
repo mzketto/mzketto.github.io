@@ -175,7 +175,7 @@ export const themeConfig = {
         {
           icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
           name: "站点监测",
-          url: "https://status.imsyy.top/",
+          url: "https://site-status.ketto.cn/",
         },
       ],
     },
@@ -342,7 +342,7 @@ export const themeConfig = {
     // 站点简介
     hello: {
       enable: true,
-      text: "这里有关于<strong>开发</strong>相关的问题和看法，也会有一些<strong>奇技淫巧</strong>的分享，其中大部分内容会侧重于<strong>前端开发</strong>。希望你可以在这里找到对你有用的知识和教程。",
+      text: "<strong>有事没事瞎折腾</strong>",
     },
     // 目录
     toc: {
