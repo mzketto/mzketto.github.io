@@ -279,7 +279,7 @@ export const themeConfig = {
           { text: "Home", link: "https://github.com/mzketto/home/", newTab: true },
           { text: "SPlayer", link: "https://github.com/imsyy/SPlayer/", newTab: true },
           { text: "DailyHotApi", link: "https://github.com/imsyy/DailyHotApi/", newTab: true },
-          { text: "Snavigation", link: "https://github.com/imsyy/Snavigation/", newTab: true },
+          { text: "Snavigation", link: "https://lion.us.kg/", newTab: true },
         ],
       },
       {
