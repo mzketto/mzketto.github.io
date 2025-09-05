@@ -306,7 +306,7 @@ export const themeConfig = {
           { text: "一个导航", link: "https://lion.us.kg/", newTab: true },
           { text: "站点订阅", link: "https://ubuy.dpdns.org/rss.xml", newTab: true },
           {
-            text: "反馈投诉（待完善）",
+            text: "反馈投诉",
             link: "https://mz-ketto.feishu.cn/share/base/form/shrcn3rp6ixgtizlbhmqNUUwC3f",
             newTab: true,
           },
