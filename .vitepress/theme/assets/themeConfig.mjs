@@ -239,27 +239,27 @@ export const themeConfig = {
     social: [
       {
         icon: "email",
-        link: "mailto:one@imsyy.top",
+        link: "mailto:yyds1661@gmail.com",
       },
       {
         icon: "github",
-        link: "https://www.github.com/imsyy/",
+        link: "https://www.github.com/mzketto/",
       },
       {
         icon: "telegram",
-        link: "https://t.me/bottom_user",
+        link: "https://t.me/gdketto_chat_bot",
       },
       {
         icon: "bilibili",
-        link: "https://space.bilibili.com/98544142",
+        link: "https://space.bilibili.com/2048816992",
       },
       {
         icon: "qq",
-        link: "https://res.abeim.cn/api/qq/?qq=1539250352",
+        link: "https://res.abeim.cn/api/qq/?qq=270895042",
       },
       {
         icon: "twitter-x",
-        link: "https://twitter.com/iimmsyy",
+        link: "https://twitter.com/mzketto",
       },
     ],
     // sitemap
