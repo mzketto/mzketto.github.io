@@ -16,7 +16,7 @@ export const themeConfig = {
     author: {
       name: "ketto",
       cover: "/images/logo/logo.webp",
-      email: "admin@mails.htu.edu.kg",
+      email: "yyds1661@gmail.com",
       link: "https://ubuy.dpdns.org",
     },
   },
@@ -40,7 +40,7 @@ export const themeConfig = {
           rel: "alternate",
           type: "application/rss+xml",
           title: "RSS",
-          href: "https://blog.imsyy.top/rss.xml",
+          href: "https://ubuy.dpdns.org/rss.xml",
         },
       ],
       // 预载 CDN
@@ -175,7 +175,7 @@ export const themeConfig = {
         {
           icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
           name: "站点监测",
-          url: "https://status.imsyy.top/",
+          url: "https://site-status.ketto.cn/",
         },
       ],
     },
@@ -200,7 +200,7 @@ export const themeConfig = {
         {
           icon: "/images/logo/logo.webp",
           name: "Home",
-          url: "https://github.com/imsyy/home",
+          url: "https://github.com/mzketto/home",
         },
         {
           icon: "https://pic.efefee.cn/uploads/2024/04/08/661346d418ad7.png",
@@ -239,27 +239,27 @@ export const themeConfig = {
     social: [
       {
         icon: "email",
-        link: "mailto:one@imsyy.top",
+        link: "mailto:yyds1661@gmail.com",
       },
       {
         icon: "github",
-        link: "https://www.github.com/imsyy/",
+        link: "https://www.github.com/mzketto/",
       },
       {
         icon: "telegram",
-        link: "https://t.me/bottom_user",
+        link: "https://t.me/gdketto_chat_bot",
       },
       {
         icon: "bilibili",
-        link: "https://space.bilibili.com/98544142",
+        link: "https://space.bilibili.com/2048816992",
       },
       {
         icon: "qq",
-        link: "https://res.abeim.cn/api/qq/?qq=1539250352",
+        link: "https://res.abeim.cn/api/qq/?qq=270895042",
       },
       {
         icon: "twitter-x",
-        link: "https://twitter.com/iimmsyy",
+        link: "https://twitter.com/mzketto",
       },
     ],
     // sitemap
@@ -276,7 +276,7 @@ export const themeConfig = {
       {
         text: "项目",
         items: [
-          { text: "Home", link: "https://github.com/imsyy/home/", newTab: true },
+          { text: "Home", link: "https://github.com/mzketto/home/", newTab: true },
           { text: "SPlayer", link: "https://github.com/imsyy/SPlayer/", newTab: true },
           { text: "DailyHotApi", link: "https://github.com/imsyy/DailyHotApi/", newTab: true },
           { text: "Snavigation", link: "https://github.com/imsyy/Snavigation/", newTab: true },
@@ -302,12 +302,12 @@ export const themeConfig = {
       {
         text: "服务",
         items: [
-          { text: "站点状态", link: "https://status.imsyy.top/", newTab: true },
-          { text: "一个导航", link: "https://nav.imsyy.top/", newTab: true },
-          { text: "站点订阅", link: "https://blog.imsyy.top/rss.xml", newTab: true },
+          { text: "站点状态", link: "https://site-status.ketto.cn/", newTab: true },
+          { text: "一个导航", link: "https://lion.us.kg/", newTab: true },
+          { text: "站点订阅", link: "https://ubuy.dpdns.org/rss.xml", newTab: true },
           {
-            text: "反馈投诉",
-            link: "https://eqnxweimkr5.feishu.cn/share/base/form/shrcnCXCPmxCKKJYI3RKUfefJre",
+            text: "反馈投诉（待完善）",
+            link: "https://mz-ketto.feishu.cn/share/base/form/shrcn3rp6ixgtizlbhmqNUUwC3f",
             newTab: true,
           },
         ],
@@ -342,7 +342,7 @@ export const themeConfig = {
     // 站点简介
     hello: {
       enable: true,
-      text: "这里有关于<strong>开发</strong>相关的问题和看法，也会有一些<strong>奇技淫巧</strong>的分享，其中大部分内容会侧重于<strong>前端开发</strong>。希望你可以在这里找到对你有用的知识和教程。",
+      text: "<strong>有事没事瞎折腾</strong>",
     },
     // 目录
     toc: {
