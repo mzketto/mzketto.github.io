@@ -200,7 +200,7 @@ export const themeConfig = {
         {
           icon: "/images/logo/logo.webp",
           name: "Home",
-          url: "https://github.com/imsyy/home",
+          url: "https://github.com/mzketto/home",
         },
         {
           icon: "https://pic.efefee.cn/uploads/2024/04/08/661346d418ad7.png",
@@ -276,7 +276,7 @@ export const themeConfig = {
       {
         text: "项目",
         items: [
-          { text: "Home", link: "https://github.com/imsyy/home/", newTab: true },
+          { text: "Home", link: "https://github.com/mzketto/home/", newTab: true },
           { text: "SPlayer", link: "https://github.com/imsyy/SPlayer/", newTab: true },
           { text: "DailyHotApi", link: "https://github.com/imsyy/DailyHotApi/", newTab: true },
           { text: "Snavigation", link: "https://github.com/imsyy/Snavigation/", newTab: true },
@@ -302,12 +302,12 @@ export const themeConfig = {
       {
         text: "服务",
         items: [
-          { text: "站点状态", link: "https://status.imsyy.top/", newTab: true },
-          { text: "一个导航", link: "https://nav.imsyy.top/", newTab: true },
-          { text: "站点订阅", link: "https://blog.imsyy.top/rss.xml", newTab: true },
+          { text: "站点状态", link: "https://site-status.ketto.cn/", newTab: true },
+          { text: "一个导航", link: "https://lion.us.kg/", newTab: true },
+          { text: "站点订阅", link: "https://ubuy.dpdns.org/rss.xml", newTab: true },
           {
-            text: "反馈投诉",
-            link: "https://eqnxweimkr5.feishu.cn/share/base/form/shrcnCXCPmxCKKJYI3RKUfefJre",
+            text: "反馈投诉（待完善）",
+            link: "https://mz-ketto.feishu.cn/share/base/form/shrcn3rp6ixgtizlbhmqNUUwC3f",
             newTab: true,
           },
         ],
