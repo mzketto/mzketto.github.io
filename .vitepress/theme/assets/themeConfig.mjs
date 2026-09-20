@@ -9,7 +9,7 @@ export const themeConfig = {
     // 站点logo
     logo: "/images/logo/logo.webp",
     // 站点地址
-    site: "https://ubuy.dpdns.org",
+    site: "https://ketto.zz.ac",
     // 语言
     lang: "zh-CN",
     // 作者
@@ -17,7 +17,7 @@ export const themeConfig = {
       name: "ketto",
       cover: "/images/logo/logo.webp",
       email: "yyds1661@gmail.com",
-      link: "https://ubuy.dpdns.org",
+      link: "https://ketto.zz.ac",
     },
   },
   // 备案信息
@@ -40,7 +40,7 @@ export const themeConfig = {
           rel: "alternate",
           type: "application/rss+xml",
           title: "RSS",
-          href: "https://ubuy.dpdns.org/rss.xml",
+          href: "https://ketto.zz.ac/rss.xml",
         },
       ],
       // 预载 CDN
@@ -155,7 +155,7 @@ export const themeConfig = {
         {
           icon: "/images/logo/logo.webp",
           name: "博客镜像站",
-          url: "https://ubuy.dpdns.org/",
+          url: "https://ketto.zz.ac/",
         },
       ],
     },
@@ -304,7 +304,7 @@ export const themeConfig = {
         items: [
           { text: "站点状态", link: "https://site-status.ketto.cn/", newTab: true },
           { text: "一个导航", link: "https://lion.us.kg/", newTab: true },
-          { text: "站点订阅", link: "https://ubuy.dpdns.org/rss.xml", newTab: true },
+          { text: "站点订阅", link: "https://ketto.zz.ac/rss.xml", newTab: true },
           {
             text: "反馈投诉（待完善）",
             link: "https://mz-ketto.feishu.cn/share/base/form/shrcn3rp6ixgtizlbhmqNUUwC3f",
@@ -358,7 +358,7 @@ export const themeConfig = {
       // 倒计时日期
       data: {
         name: "春节",
-        date: "2026-02-17",
+        date: "2026-02-06",
       },
     },
     // 站点数据
