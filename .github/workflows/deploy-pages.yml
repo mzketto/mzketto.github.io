@@ -3,21 +3,21 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # 每次推送到 main 分支时触发部署
+      - main
     paths-ignore:
-      - '.github/**'  # 替换为要排除的文件或文件夹路径
+      - '.github/**'
       - 'pages/**'
       - 'public/**'
       - '.vitepress/**'
-  workflow_dispatch:  # 允许手动触发
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      REPO_URL: "mzketto/mzketto.github.io"  # 远程仓库的 URL
-      BUILD_PATH: ".vitepress/dist"  # 构建输出路径
-      CUSTOM_DOMAIN: "ubuy.dpdns.org"  # 自定义域名
+      REPO_URL: "mzketto/mzketto.github.io"
+      BUILD_PATH: ".vitepress/dist"
+      CUSTOM_DOMAIN: "ketto.zz.ac"
 
     steps:
       - name: Set up Node.js
@@ -28,31 +28,43 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # 安装 pnpm、安装依赖并构建项目
       - name: Install pnpm
         run: npm install -g pnpm
+
+      # 新增：配置 pnpm 允许必要的构建脚本
+      - name: Configure pnpm to allow build scripts
+        run: |
+          # 创建或更新 pnpm-workspace.yaml，添加 allowBuilds 配置
+          if [ ! -f pnpm-workspace.yaml ]; then
+            echo "allowBuilds:" > pnpm-workspace.yaml
+          else
+            if ! grep -q "^allowBuilds:" pnpm-workspace.yaml; then
+              echo "allowBuilds:" >> pnpm-workspace.yaml
+            fi
+          fi
+          # 添加报错中提到的包
+          grep -q "@parcel/watcher" pnpm-workspace.yaml || echo "  '@parcel/watcher': true" >> pnpm-workspace.yaml
+          grep -q "esbuild" pnpm-workspace.yaml || echo "  esbuild: true" >> pnpm-workspace.yaml
+          grep -q "vue-demi" pnpm-workspace.yaml || echo "  vue-demi: true" >> pnpm-workspace.yaml
+          echo "当前 pnpm-workspace.yaml 内容："
+          cat pnpm-workspace.yaml
+
       - name: Install dependencies and build
         run: |
           pnpm install
           pnpm build
 
-      # 将静态文件部署到 pages 分支
       - name: Deploy to GitHub Pages
         run: |
-          cd $BUILD_PATH       
-          echo "$CUSTOM_DOMAIN" > CNAME  # 使用自定义域名
+          cd $BUILD_PATH
+          echo "$CUSTOM_DOMAIN" > CNAME
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
-          # 初始化一个新的 git 仓库
           git init
           git add .
           git commit -m "Deploy to GitHub Pages"
-          # 创建 pages 分支（如果不存在）
           git checkout -B pages
-
-          # 添加远程仓库并推送到 pages 分支
           git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ env.REPO_URL }}.git
           git push --force origin pages
-
         env:
           CI: true
