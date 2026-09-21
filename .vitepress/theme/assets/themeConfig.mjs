@@ -21,7 +21,11 @@ export const themeConfig = {
     },
   },
   // 备案信息
-  icp: "萌ICP备20269968号",
+  icp: = `
+<a href="https://icp.gov.moe/?keyword=20269968" target="_blank" rel="noopener noreferrer">
+  萌ICP备20269968号
+</a>
+`,
   // 建站日期
   since: "2025-09-05",
   // 每页文章数据
